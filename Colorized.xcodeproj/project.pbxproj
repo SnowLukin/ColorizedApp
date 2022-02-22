@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D710912827C51A7E007180DB /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710912727C51A7E007180DB /* ColorView.swift */; };
+		D710912A27C51F2F007180DB /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710912927C51F2F007180DB /* SliderView.swift */; };
+		D710912C27C51F63007180DB /* ValueTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710912B27C51F63007180DB /* ValueTextView.swift */; };
+		D710912E27C51F71007180DB /* ValueTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710912D27C51F71007180DB /* ValueTFView.swift */; };
 		D784376627BEF36A00BB5C8B /* ColorizedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784376527BEF36A00BB5C8B /* ColorizedApp.swift */; };
-		D784376827BEF36A00BB5C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784376727BEF36A00BB5C8B /* ContentView.swift */; };
 		D784376A27BEF37000BB5C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D784376927BEF37000BB5C8B /* Assets.xcassets */; };
 		D784376D27BEF37000BB5C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D784376C27BEF37000BB5C8B /* Preview Assets.xcassets */; };
+		D784377427C16CC100BB5C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784377327C16CC000BB5C8B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D710912727C51A7E007180DB /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		D710912927C51F2F007180DB /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		D710912B27C51F63007180DB /* ValueTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTextView.swift; sourceTree = "<group>"; };
+		D710912D27C51F71007180DB /* ValueTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTFView.swift; sourceTree = "<group>"; };
 		D784376227BEF36A00BB5C8B /* Colorized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorized.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D784376527BEF36A00BB5C8B /* ColorizedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedApp.swift; sourceTree = "<group>"; };
-		D784376727BEF36A00BB5C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D784376927BEF37000BB5C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D784376C27BEF37000BB5C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D784377327C16CC000BB5C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D784376527BEF36A00BB5C8B /* ColorizedApp.swift */,
-				D784376727BEF36A00BB5C8B /* ContentView.swift */,
+				D784377327C16CC000BB5C8B /* ContentView.swift */,
+				D710912727C51A7E007180DB /* ColorView.swift */,
+				D710912927C51F2F007180DB /* SliderView.swift */,
+				D710912B27C51F63007180DB /* ValueTextView.swift */,
+				D710912D27C51F71007180DB /* ValueTFView.swift */,
 				D784376927BEF37000BB5C8B /* Assets.xcassets */,
 				D784376B27BEF37000BB5C8B /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D784376827BEF36A00BB5C8B /* ContentView.swift in Sources */,
+				D710912C27C51F63007180DB /* ValueTextView.swift in Sources */,
+				D710912827C51A7E007180DB /* ColorView.swift in Sources */,
+				D710912E27C51F71007180DB /* ValueTFView.swift in Sources */,
+				D710912A27C51F2F007180DB /* SliderView.swift in Sources */,
+				D784377427C16CC100BB5C8B /* ContentView.swift in Sources */,
 				D784376627BEF36A00BB5C8B /* ColorizedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
